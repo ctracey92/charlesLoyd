@@ -1,4 +1,85 @@
-body {
-    background-color: black;
+
+
+.header {
+    position: relative;
+    text-align: center;
     color: white;
+}
+
+#coverImg{
+    max-height: 500px;
+}
+.headerTxt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#companyName {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+    font-size: 3em;
+}
+
+#slogan {
+    font-size: 1.5em;
+}
+
+.about {
+    background-color: #7b8e96;
+    color: #1e1834;
+}
+
+#brandStatement{
+    padding-top: 50px;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+#philosophy{
+    padding-bottom: 50px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.designer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+
+#designerName{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+
+}
+
+#designerSnippet{
+    text-align: center;
+}
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #65555c
+}
+
+#clientPromise{
+    font-size: 2em;
+}
+
+ul{
+    font-size: 1.5em;
+}
+
+.contact{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: #1e1834;
+    color: #fefefe
 }

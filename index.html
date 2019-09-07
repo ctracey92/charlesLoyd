@@ -1,109 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Charles Loyd</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
-</head>
-<body>
-    <div class="ui container">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="headerImg">
+        <img
+          class="ui fluid image"
+          id="coverImg"
+          src="/assets/images/tempImage.jpg"
+        />
+      </div>
+      <div class="headerTxt">
+        <div id="companyName">
+          <p>Charles Loyd Co.</p>
+        </div>
+        <div id="slogan">
+          <p>Interior Designers</p>
+          <p>UNIQUELY TAILORED WITH A PERSONAL TOUCH</p>
+        </div>
+      </div>
+    </div>
     <div class="about">
-        <h3>ABOUT OUR COMPANY</h3>
-        <h4>MISSION STATEMENT</h4>
-        <br>
-        <p>
-            My design philosophy is that everyone should live, work, and play in spaces that are pleasing to them. Often times simply rearranging the furniture in a room or painting it can totally bring a room to life. All too often, people deny themsleves the pleasure of living in a designed space. They feel that it will be too expensive to hire a designer, or the designer will want the to buy new furnishings. I love to meet clients where they are and to work with what they have. It is important to me to work with their budget to make their space better, more appealing, happier, flow better, etc. The spaces where you spend your time should refect you and your interests. They should be inviting and welcoming, and you should look forward to spending time in them. It is my goal to create a space that you can identify with, that feels like you, perhaps even a better you!     
+      <div class="ui container">
+        <p id="brandStatement">
+            My design philosophy is that everyone should live, work, and play in
+            spaces that are pleasing to them.
         </p>
-        <br>
-        <h3>CHARLES LOYD</h3>
-        <h4>COMPANY | EDUCATION | EXPERIENCE</h4>
-        <br>
-        <p>
-            Charles Loyd established his design firm, Charles Loyd Co., in 1995 after spending several years gaining experience in the inducstry in leadership roles with other area designers.
+        <p id="philosophy">
+          Often times simply rearranging the furniture in a room or painting it
+          can totally bring a room to life. All too often, people deny
+          themsleves the pleasure of living in a designed space. They feel that
+          it will be too expensive to hire a designer, or the designer will want
+          the to buy new furnishings. I love to meet clients where they are and
+          to work with what they have. It is important to me to work with their
+          budget to make their space better, more appealing, happier, flow
+          better, etc. The spaces where you spend your time should refect you
+          and your interests. They should be inviting and welcoming, and you
+          should look forward to spending time in them. It is my goal to create
+          a space that you can identify with, that feels like you, perhaps even
+          a better you!
         </p>
-        <h4>EDUCATION & ACHIEVEMENTS</h4>
-        <ul>
+      </div>
+    </div>
+    <div class="designer">
+      <div class="ui container">
+          <img class="ui centered medium circular image" src="/assets/images/charles.jpg">
+          <p id="designerName">CHARLES LOYD</p>
+          <h4 id="designerSnippet">COMPANY | EDUCATION | EXPERIENCE</h4>
+          <br />
+          <p>
+            Charles Loyd established his design firm, Charles Loyd Co., in 1995
+            after spending several years gaining experience in the industry in
+            leadership roles with other area designers.
+          </p>
+          <div class="ui divider"></div>
+          <h4>EDUCATION & ACHIEVEMENTS</h4>
+          <ul>
             <li>B.F.A., Belmont University</li>
             <li>Main Street Revitalization Project - Murfreesboro, TN</li>
             <li>Parade of Homes "The Roosevelt" Keith Swafford</li>
             <li>Oaklands Decorator ShowHouse</li>
-            <li>Daily News Journal Ruthies Award for Best Decorator</li>    
-        </ul>
+            <li>Daily News Journal Ruthies Award for Best Decorator</li>
+          </ul>
+      </div>
     </div>
-    <div class="ui divider"></div>
-    <div class="services">
-        <h3>OUR SERVICES</h3>
-        <h4>UNIQUELY TAILORED WITH A PERSONAL TOUCH</h4>
-        <br>
-        <p>
-            The success of space planning and consequently the entire design project is totally dependent on how well we have captured and transformed client's vision into a built reality. Client's wishes are the top priority for our team of interior design consultants and client's participation is encouraged at all stages during the planning and implementation of the project.   
-        </p>
-        <h3>OUR SERVICES</h3>
-        <ul>
-            <li>Concept Development</li>
-            <li>Transforming the client</li>
-            <li>Project timeframes / budget guidelines</li>
-            <li>Selection of all materials, colors, lighting, artwork, furniture, etc...</li>
-            <li>Project Management</li>
-            <li>Procurement</li>
-            <li>Space planning</li>
-            <li>Customization, selection, and purchase of finishings</li>
-            <li>Specialty in wood blinds</li>
-        </ul>
+<div class="services">
+  <div class="ui container">
+      <br />
+      <p id="clientPromise">
+        The success of space planning and consequently the entire design
+            project is totally dependent on how well we have captured and
+            transformed client's vision into a built reality.
+          <br>
+         <u>Client's wishes are the top priority</u> for our team of interior design consultants and
+        client's participation is encouraged at all stages during the planning
+        and implementation of the project.
+      </p>
+      <h2>OUR SERVICES</h2>
+      <ul>
+        <li>Concept Development</li>
+        <li>Transforming the client</li>
+        <li>Project timeframes / budget guidelines</li>
+        <li>
+          Selection of all materials, colors, lighting, artwork, furniture,
+          etc...
+        </li>
+        <li>Project Management</li>
+        <li>Procurement</li>
+        <li>Space planning</li>
+        <li>Customization, selection, and purchase of finishings</li>
+        <li>Specialty in wood blinds</li>
+      </ul>
     </div>
-    <div class="ui divider"></div>
-    <div class="designs">
-            <div class="ui three column doubling stackable grid container">
-                    <div class="column">
-                            <div class="ui medium rectangle test ad" data-text="Ad Unit 1"></div><br>
-                            <div class="ui medium rectangle test ad" data-text="Ad Unit 2"></div> 
-                    </div>
-                    <div class="column">
-                            <div class="ui medium rectangle test ad" data-text="Ad Unit 1"></div><br>
-                            <div class="ui medium rectangle test ad" data-text="Ad Unit 2"></div> 
-                    </div>
-                    <div class="column">
-                            <div class="ui medium rectangle test ad" data-text="Ad Unit 1"></div><br>
-                            <div class="ui medium rectangle test ad" data-text="Ad Unit 2"></div> 
-                    </div>
-                  </div>
-    </div>
-    <div class="ui divider"></div>
-    <div class="contact">
+</div>
+
+<div class="designs">
+    <div class="ui container">
+        <div class="ui divider"></div>
+          <div class="ui three column doubling stackable grid container">
+            <div class="column">
+                <img class="ui fluid bordered image" src="/assets/images/design1.jpg">
+              <br />
+              <img class="ui fluid bordered image" src="/assets/images/design2.jpg">
+              <br>
+              <img class="ui fluid bordered image" src="/assets/images/design3.jpg">
+              <br>
+              <img class="ui fluid bordered image" src="/assets/images/design4.jpg">
+            </div>
+            <div class="column">
+                <img class="ui fluid bordered image" src="/assets/images/design5.jpg">
+              <br />
+              <img class="ui fluid bordered image" src="/assets/images/design6.jpg">
+              <br>
+              <img class="ui fluid bordered image" src="/assets/images/design7.jpg">
+              <br>
+              <img class="ui fluid bordered image" src="/assets/images/design8.jpg">
+            </div>
+            <div class="column">
+                <img class="ui fluid bordered image" src="/assets/images/design9.jpg">
+              <br />
+              <img class="ui fluid bordered image" src="/assets/images/design10.jpg">
+              <br>
+              <img class="ui fluid bordered image" src="/assets/images/design11.jpg">
+              <br>
+              <img class="ui fluid bordered image" src="/assets/images/design12.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="ui divider"></div>
+</div>
+
+<div class="contact">
         <div class="ui list">
-                <div class="item">
-                  <i class="users icon"></i>
-                  <div class="content">
-                   Charles Loyd Co
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="marker icon"></i>
-                  <div class="content">
-                    Charles Loyd Co. <br>
-                    P.O. Box 2045<br>
-                    Murfreesboro,TN 37133-2045
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="mail icon"></i>
-                  <div class="content">
-                    <a href="mailto:charles@charlesloyd.com">charles@charlesloyd.com</a>
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="phone icon"></i>
-                  <div class="content">
-                        615.895.6196
-                  </div>
-                </div>
-              </div>
-    </div>
-    </div>
-</body>
+          <div class="item">
+            <i class="users icon"></i>
+            <div class="content">
+              Charles Loyd Co
+            </div>
+          </div>
+          <div class="item">
+            <i class="marker icon"></i>
+            <div class="content">
+              Charles Loyd Co. <br />
+              P.O. Box 2045<br />
+              Murfreesboro,TN 37133-2045
+            </div>
+          </div>
+          <div class="item">
+            <i class="mail icon"></i>
+            <div class="content">
+              <a href="mailto:charles@charlesloyd.com"
+                >charles@charlesloyd.com</a
+              >
+            </div>
+          </div>
+          <div class="item">
+            <i class="phone icon"></i>
+            <div class="content">
+              615.895.6196
+            </div>
+          </div>
+        </div>
+</div>
+  </body>
 </html>
