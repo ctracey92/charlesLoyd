@@ -1,4 +1,5 @@
 .contactTop{
+    z-index: 1;
     margin-left: 50px;
     padding: 5px;
     background-color: #fefefe;
@@ -115,7 +116,6 @@ padding-bottom: 20px;
 /* Making the page more mobile responsive on smaller screens */
 @media (max-width: 640px) {
     .contactTop{
-        z-index: 1;
         font-size: 10px;
         padding: 5px;
         width: 100%;
